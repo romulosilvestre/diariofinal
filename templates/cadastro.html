@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra-se</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'stylecadastro.css')}}">
+</head>
+<body>
+    <form method="post"> 
+        <label>Nome: </label> 
+        <input type="text" required placeholder="Nome"/> 
+        <label>RA:</label> 
+        <input type="text" required placeholder="RA do aluno"/> 
+        <label>Tempo:</label> 
+        <input type="number" placeholder="Tempo de estudo mensal"/> 
+        <label>Renda familiar</label>
+        <input type="number" placeholder="Renda familiar mensal"/>
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+</body>
+</html>
